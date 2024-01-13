@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="main">
+        <div id="set_timer">
+       <form id="input_timer">
+        
+            <input type="number" class="input_timer_section" id="H" placeholder="HH:">
+            <input type="number"  class="input_timer_section"id="M" placeholder="MM:">
+            <input type="number" class="input_timer_section" id="S" placeholder="SS:">
+        <button id="start">Start Timer</button>
+        </form>
+        </div>
+        <div id="timers_container"></div>
+        <audio src="./mixkit-retro-game-emergency-alarm-1000.wav" controls id="timer_tune"></audio>
+    <script src="./script.js"></script>
+</body>
+</html>
